@@ -1,32 +1,14 @@
 {
- "id": "/atalaya/?app=atalaya-v3",
- "name": "ATALAYA by Lorenzo",
- "short_name": "ATALAYA",
- "start_url": "/atalaya/?app=atalaya-v3",
- "scope": "/atalaya/",
- "display": "standalone",
- "orientation": "portrait",
- "background_color": "#123345",
- "theme_color": "#123345",
- "lang": "es",
- "icons": [
-  {
-   "src": "/atalaya/icon-192.png",
-   "sizes": "192x192",
-   "type": "image/png",
-   "purpose": "any"
-  },
-  {
-   "src": "/atalaya/icon-512.png",
-   "sizes": "512x512",
-   "type": "image/png",
-   "purpose": "any"
-  },
-  {
-   "src": "/atalaya/icon-512.png",
-   "sizes": "512x512",
-   "type": "image/png",
-   "purpose": "maskable"
-  }
- ]
+  "name": "ATALAYA",
+  "short_name": "ATALAYA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#123345",
+  "theme_color": "#123345",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
 }
